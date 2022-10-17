@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#2c3347;
+    color: #ffffff;
+    font-size:48px;
+    font-family:"Montserrat", sans-serif;
+    margin: 0 auto;
+    height: 100vh;
+}
+section ,.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+h1 span{
+    /* font-size: 2rem; */
+    font-weight: 800;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 6px #f2c94c;
+}
+.container{
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.timeer_display{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.btn_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column-gap:2rem;
+}
+.btn_box button{
+    padding: 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #f2c94c;
+    color: #fff;
+    background-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_box .restrt_btn{
+    border: 1px solid #ffffff;
+    padding: 12px 10px;
+}
+.btn_box .start_btn{
+    color: #f2c94c;
+    padding: 12px 10px;
+    /* font-size: 1.6rem; */
+}
+
+@media only screen and (max-width:991px){
+    body{
+        font-size: 30px;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0 12px;
+    }
+}

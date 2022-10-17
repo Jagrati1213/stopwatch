@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>StopWatch App</title>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <h1><span>StopWatch</span> App</h1>
+            <div class="timeer_display">
+                <span>0 : 0 : 0</span>
+            </div>
+            <div class="btn_box">
+                 <button>
+                    <ion-icon name="play" onclick="start_watch(this)" class="start_btn"></ion-icon>
+                 </button>
+                 <button class="restrt_btn">
+                    <ion-icon name="stop" onclick="restart_watch()"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
